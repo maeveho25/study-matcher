@@ -1,0 +1,16 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Disallow: /api/
+Disallow: /admin/
+Disallow: /profile/
+Disallow: /messages/
+Disallow: /sessions/
+
+# Allow public pages
+Allow: /
+Allow: /login
+Allow: /about
+Allow: /help
+
+# Sitemap
+Sitemap: https://studybuddy.com/sitemap.xml
